@@ -1,0 +1,42 @@
+title: "MyAlpha Consulting"
+description: "Architecture that moves organisations forward."
+url: "https://myalpha.github.io"
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+
+author:
+  name: "Paul Serrao"
+  bio: "Principal Architect, MyAlpha"
+  avatar: "/assets/images/paul.jpg"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: false
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Services"
+    url: "/services/"
+  - title: "Case Studies"
+    url: "/case-studies/"
+  - title: "About"
+    url: "/about/"
+  - title: "Blog"
+    url: "/blog/"

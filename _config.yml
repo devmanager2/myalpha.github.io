@@ -1,6 +1,8 @@
 title: "MyAlpha"
 description: "Professional consulting and architecture"
 remote_theme: "mmistakes/minimal-mistakes"
+url: "https://devmanager2.github.io"
+baseurl: "/myalpha.github.io"
 
 plugins:
   - jekyll-feed

@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Architecture that moves organisations forward"
+title: "Architecture that moves organisations forward."
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
